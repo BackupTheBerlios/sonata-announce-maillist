@@ -1,0 +1,23 @@
+From stonecrest at gmail.com  Thu Sep 28 01:18:26 2006
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Wed, 27 Sep 2006 17:18:26 -0600
+Subject: [Sonata-announce] Sonata 0.7.1 Released
+Message-ID: <35a6f8e30609271618x6470edeel5fb95afb93fea3e4@mail.gmail.com>
+
+Because I'm so good at releasing software with bugs..
+
+Sonata 0.7.1 Released
+
+CHANGELOG
+
+- Bug: Fix crash if dbus is not installed
+- Bug: Fix crash if song does not have some id3 info specified
+
+DOWNLOAD
+
+http://download.berlios.de/sonata/sonata-0.7.1.tar.gz
+http://download.berlios.de/sonata/sonata-0.7.1.tar.bz2
+
+Scott
+
+

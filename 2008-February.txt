@@ -1,0 +1,65 @@
+From stonecrest at gmail.com  Sun Feb  3 05:50:03 2008
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Sat, 2 Feb 2008 21:50:03 -0700
+Subject: [Sonata-announce] Sonata 1.4.1 Released
+Message-ID: <35a6f8e30802022050x51e6ee5dj2c9e0eb81b89ee0@mail.gmail.com>
+
+Sonata 1.4.1 Released
+
+Mostly a bug fix release. Re-ordering of the playlist should also be
+much improved (especially re-ordering multiple songs at the same
+time), and note that queue support has been unfortunately removed.
+
+CHANGELOG
+
+* Remove queue support (it was removed from mpd-svn, complain to them)
+* Improved re-ordering of playlist songs (including multiple selected songs)
+* Add album info into info tab
+* Use hand2 instead of hand1 for song info links
+* Bug: Traceback can occur after enabling audioscrobbler
+* Bug: Text background color on tabs (ecik)
+* Bug: Visible background of eventboxes for info tab links, etc.
+* Bug: Can't click (more) link in non-English locales
+* Bug: Crash when using libegg with system tray icon disabled
+* Bug: Disable tag editing link in info tab for streams/remote files
+* Bug: Unescape common html codes from lyrics fetching, enable formatting
+* Bug: The main notebook should be scrollable
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+
+From stonecrest at gmail.com  Sat Feb  9 19:15:29 2008
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Sat, 9 Feb 2008 11:15:29 -0700
+Subject: [Sonata-announce] Sonata 1.4.2 Released
+Message-ID: <35a6f8e30802091015v22cc504dve1231f829769b39c@mail.gmail.com>
+
+Sonata 1.4.2 Released
+
+Another mostly bugfix release. I've never gotten so many bug reports
+and emails over a single bug before (inability to seek in the progress
+bar) :-P
+
+CHANGELOG
+
+* Add %D for disc tag in display formatting options
+* Better handling if no read permission (e.g. no/bad mpd password supplied)
+* Bug: Fix seeking in progress bar
+* Bug: Fix blank album info when there is an ampersand
+* Bug: Missing color in notification window
+* Bug: Notebook arrow clicks are ignored due to gtk bug
+* Bug: Potential ordering bug when sorting via column heading click
+* Bug: Make desktop file compliant
+* Bug: Column widths can collapse when exiting while minimized to the tray
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+

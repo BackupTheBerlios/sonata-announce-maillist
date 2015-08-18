@@ -1,0 +1,50 @@
+From stonecrest at gmail.com  Wed Feb 14 07:10:53 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Tue, 13 Feb 2007 23:10:53 -0700
+Subject: [Sonata-announce] Sonata 1.0.1 Released
+Message-ID: <35a6f8e30702132210l669c723cycdcfac288d08333a@mail.gmail.com>
+
+Sonata 1.0 Released
+
+A bunch of interface usability improvements and bugfixes.
+
+CHANGELOG
+
+- Make lyrics fetching optional
+- Allow editing of stream name/url
+- Hide the notification window when it is clicked
+- Small usability improvements to gtk.StatusIcon
+- Improvements to reordering the current playlist with drag-n-drop
+- Bug: Info window freezes when editing currently playing song's tags
+- Bug: Tag editing doesn't work with older version (0.90.1) of tagpy
+- Bug: Prevent strange potential freeze with gc.collect()
+- Bug: Cover art doesn't update correctly if Local Only artwork set
+- Bug: Lyrics occassionally don't stay synced with current playing song
+
+DOWNLOAD
+
+http://download.berlios.de/sonata/sonata-1.0.1.tar.gz
+http://download.berlios.de/sonata/sonata-1.0.1.tar.bz2
+
+Scott
+
+P.S. I should point out that, other than bugfixes and very trivial
+code modifications, I'm going to be pretty inactive for the next month
+or so due to my thesis work. Hopefully the current state is good
+enough for the time being ;-)
+
+
+From stonecrest at gmail.com  Wed Feb 14 07:13:07 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Tue, 13 Feb 2007 23:13:07 -0700
+Subject: [Sonata-announce] Sonata 1.0.1 Released
+In-Reply-To: <35a6f8e30702132210l669c723cycdcfac288d08333a@mail.gmail.com>
+References: <35a6f8e30702132210l669c723cycdcfac288d08333a@mail.gmail.com>
+Message-ID: <35a6f8e30702132213o13e330b0oeec38e9914a56eed@mail.gmail.com>
+
+On 2/13/07, Scott Horowitz <stonecrest at gmail.com> wrote:
+> Sonata 1.0 Released
+
+Err.. you know what I meant ;-)
+
+

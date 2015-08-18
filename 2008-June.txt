@@ -1,0 +1,36 @@
+From stonecrest at gmail.com  Thu Jun  5 21:35:13 2008
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Thu, 5 Jun 2008 13:35:13 -0600
+Subject: [Sonata-announce] Sonata 1.5.2 Released
+Message-ID: <35a6f8e30806051235m4ae5cd79vee143d348d9c0fba@mail.gmail.com>
+
+Sonata 1.5.2 Released
+
+Mostly a bug fix release... I've been very busy lately with moving and
+travel, but I'm looking to get back into the swing of things in the near
+future.
+
+ CHANGELOG
+
++ Improved artwork/lyrics caching through case-insensitive searching
++ Add Turkish translation (G?kmen)
++ Bug: Fix artwork for files with unicode characters
++ Bug: Fix crash if mpd library is empty
++ Bug: Fix regression where dbus-python became required
++ Bug: Bold titles lose sync if song changes with visible filterbar
++ Bug: Doesn't scrobble when same song is repeated
++ Bug: Python conflict when installed with sugar (OLPC)
++ Bug: Fix artwork display in song notification window for RTL languages
++ Bug: Fix progressbar seeking for RTL languages
++ Bug: No play/pause indicator in egg tray icon if started while mpd is
+active
+
+ DOWNLOAD
+
+ http://sonata.berlios.de/download.html
+
+ Scott
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/sonata-announce/attachments/20080605/3008499d/attachment.html>
+

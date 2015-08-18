@@ -1,0 +1,63 @@
+From stonecrest at gmail.com  Sun Mar 29 20:30:17 2009
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Sun, 29 Mar 2009 12:30:17 -0600
+Subject: [Sonata-announce] Sonata 1.6 Released
+Message-ID: <35a6f8e30903291130o1acca4faocadb1076b12ddbbe@mail.gmail.com>
+
+All,
+
+Sonata 1.6 has now been released with a host of new features, interface
+improvements, and backend refactorings. The album browsing mode is back, all
+the library views have been enhanced with details and album artwork, the
+library tab has real-time search as you type, and there is a fullscreen
+album art mode. See the changelog for the full list of changes.
+
+Huge thanks goes to Tuukka Hastrup, who helped enormously to refactor the
+Sonata codebase and is now an official developer, and Stephen Boyd, who has
+submitted a large number of bugfix/cleanup patches. Also finally, thanks to
+all the individual patch writers, bug reporters, and translators.
+
+CHANGELOG
+
+Album browsing mode, additional details in library views
+Real-time searching of library (search as you type)
+Fullscreen album art mode (via right-click on artwork) (mips)
+Improve library searching across meta tags
+Sort library search results
+Show file path in tooltip for library search results
+Improved support for updating less than entire library
+Drag-and-drop to copy files from Sonata to a file manager (Kamil)
+Ability to show file paths in tag editing window
+Use plchanges for faster performance (e.g. add to playlist)
+Allow manually fetching remote art when using local art pref (Erik)
+Swap mousewheel behavior for progressbar
+Only minimize to trayicon on click if focused; raise if not focused
+Use new 'listplaylists' command for retrieving playlists
+Allow hiding the application's titlebar in preferences
+Better error trapping
+Make process name 'sonata' for linux (himdel)
+Look for <artist> - <title>.txt lyrics files by other clients
+Add Traditional Chinese translation (b4283)
+Add Japanese translation (Masato)
+Add Slovenian translation (Alan)
+Code modernisation, modularisation, overall cleanup, documentation
+A prototype of a plug-in system
+Unicode fixes
+Some helpful error messages if startup fails
+Useless code removed, various code cleanups and refactorings (Stephen)
+Bug: Bad profiles prevent Sonata from starting
+Bug: Error for CLI arguments when Sonata can't connect to MPD (Juan)
+Bug: Files may not update in interface after tag editing
+Bug: Traceback with Turkish locale
+Bug: Lyrics don't work with python-zsi 2.0 on Ubuntu
+Bug: Bell sound when going to parent folder using backspace
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/sonata-announce/attachments/20090329/5ba0fdd5/attachment.html>
+

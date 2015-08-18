@@ -1,0 +1,46 @@
+From stonecrest at gmail.com  Tue Oct 30 03:02:39 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Mon, 29 Oct 2007 20:02:39 -0600
+Subject: [Sonata-announce] Sonata 1.3 Released
+Message-ID: <35a6f8e30710291902g25a05d1ft1e1be8b703393e46@mail.gmail.com>
+
+Sonata 1.3 Released
+
+This feels like a pretty significant release, with some new features
+(queue support, user-customizable columns), a number of usability
+enhancements (better integrated search filtering), and your typical
+bugfixes. Huge thanks to all of the people that provided patches,
+translations, bug reports, and so on. Check out the website
+screenshots for examples of some of the changes.
+
+CHANGELOG
+
+* Playlist queue support (requires mpd 0.14 - currently mpd-svn)
+* Use-configurable columns in playlist by using "|" in prefs > format (xsdnyd)
+* Switch from SOAPpy to newer ZSI library for lyrics fetching
+* Use xmms-like search filter by default when user types (no more ctrl-j)
+* Ctrl-i shortcut to center currently playing song
+* Use case insensitive sorting for library (holy_robot)
+* Ignore "the" when sorting library in artist/album views (holy_robot)
+* Better logic when sorting playlists and new "dir+file" sort option (sed)
+* Allow saving/overwriting existing playlists and streams
+* Hidden config options to set browser, hide column headers
+* Update license to GNU GPLv3
+* Added Brazilian translation (Alex Tercete Matos)
+* Added Danish translation (Martin Dybdal)
+* Bug: Fix nl.po translation causing crash
+* Bug: Remember playlist position when adding from library
+* Bug: Fixed tracebacks with certain encodings
+* Bug: MPD_HOST with password doesn't work on first install
+* Bug: Fix desktop file to match current XDG standard (nigel)
+* Bug: Search Amazon artwork using latin1 since it no longer supports utf8
+* Bug: Possible tag editing issues w/non-latin encoding (requires tagpy 0.93)
+* Bug: Fix czech translation to use cs.po
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+

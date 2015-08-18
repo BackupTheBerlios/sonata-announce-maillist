@@ -1,0 +1,33 @@
+From stonecrest at gmail.com  Sun Sep 14 07:00:13 2008
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Sat, 13 Sep 2008 23:00:13 -0600
+Subject: [Sonata-announce] Sonata 1.5.3 Released
+Message-ID: <35a6f8e30809132200t4dd75a7fh7d1e1c5930949132@mail.gmail.com>
+
+Once again, mainly a bug fix release; prevents some potential crashes and
+other small refinements. Thanks to everyone that reported bugs, submitted
+patches, etc.
+
+CHANGELOG
+
+Quick link to edit lyrics through LyricWiki
+Unicode lyrics and better searching with LyricWiki (orivej)
+Store audioscrobbler password as md5 hash
+Add Greek translation (Lazaros)
+Bug: Fix lost connection when hard drive is spun down
+Bug: Fix non-ascii characters when scrobbling with non-utf8 locale
+Bug: Selected item changed on double-click
+Bug: Use consistent behavior for titlebar
+Bug: Prevent bad cover image files from causing problems
+Bug: Don't sort library search results
+Bug: Ensure image filenames are escaped in search routine
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/sonata-announce/attachments/20080913/25153c16/attachment.html>
+

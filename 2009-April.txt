@@ -1,0 +1,51 @@
+From stonecrest at gmail.com  Sat Apr 11 21:36:44 2009
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Sat, 11 Apr 2009 13:36:44 -0600
+Subject: [Sonata-announce] Sonata 1.6.1 Released
+Message-ID: <35a6f8e30904111236i77f63473k21368b5396d18c2e@mail.gmail.com>
+
+Sonata 1.6.1 is mainly a bugfix release and is now available for download.
+Thanks to Tuukka, Stephen, bug reporters, and translators for their work.
+
+CHANGELOG
+
+Reduce library's filesystem view row height
+More auto-applying of preferences (e.g. format tab)
+Bug: Fix python version check for Ubuntu Jaunty
+Bug: Traceback if track has multiple date tags
+Bug: Fix infinite loop when format strings end in '{'
+Bug: Fix music directory chooser selecting the wrong folder sometimes
+Bug: Catch OSErrors from os.listdir, e.g. flac files with cue sheets
+Bug: Fix --profile option
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/sonata-announce/attachments/20090411/008778f4/attachment.html>
+
+From stonecrest at gmail.com  Tue Apr 14 05:24:10 2009
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Mon, 13 Apr 2009 21:24:10 -0600
+Subject: [Sonata-announce] Sonata 1.6.2 Released
+Message-ID: <35a6f8e30904132024k13dd7105tf7a1e62f0450b748@mail.gmail.com>
+
+Sonata 1.6.2 has been released to fix a single bug where most commandline
+options would no longer work.
+
+CHANGELOG
+
+Bug: Fix cli options (e.g. 'sonata play')
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+-------------- next part --------------
+An HTML attachment was scrubbed...
+URL: <https://lists.berlios.de/pipermail/sonata-announce/attachments/20090413/a2edb0db/attachment.html>
+

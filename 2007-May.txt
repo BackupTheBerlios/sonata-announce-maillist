@@ -1,0 +1,71 @@
+From stonecrest at gmail.com  Tue May  8 06:52:43 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Mon, 7 May 2007 22:52:43 -0600
+Subject: [Sonata-announce] Sonata 1.1 Released
+Message-ID: <35a6f8e30705072152q7fe6f39at8f58b3d5dfabd27c@mail.gmail.com>
+
+Sonata 1.1 Released
+
+Some new features, bug fixes, interface improvements.. Note that you
+are going to be seeing a warning about egg.trayicon being deprecated,
+this is safe to ignore. I have filed a bug report[1] about whether it
+should indeed be deprecated, so I have not yet removed the code from
+Sonata.
+
+CHANGELOG
+
+    * Ctrl-J for xmms-like search filter (vEX/Eduard)
+    * Implemented logic for Various Artists albums
+    * Cover art pref: save to ~/.covers or file's respective dir
+    * Support for GNOME session management
+    * Allow searching through ALL metadata in library
+    * Link artist and album name in song info window to wikipedia entry
+    * Add shuffle, repeat, --visible, and --hidden commandline arguments
+    * Show if mpd is updating in statusbar
+    * Save last used option in library search
+    * Update code for dbus-python 0.80 API (Jordan)
+    * Ellipsize text in treeviews, current playing song (Jordan)
+    * Add button for listing of shortcuts to About dialog
+    * Resize cover art to fit song info window
+    * Added Simplified Chinese translation (Desmond Chang)
+    * Bug: Prevent tracebacks between withdrawing app & gtk.StatusIcon
+    * Bug: Fix error if mpd is not running and sonata starts hidden
+    * Bug: Can't manually set artwork across filesystems
+    * Bug: Can't use find-as-you-type in the current playlist
+    * Bug: Right-click menu closes right away for some users
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+[1] http://bugzilla.gnome.org/show_bug.cgi?id=434023
+
+
+From stonecrest at gmail.com  Sat May 19 07:27:41 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Fri, 18 May 2007 23:27:41 -0600
+Subject: [Sonata-announce] Sonata 1.1.1 Released
+Message-ID: <35a6f8e30705182227q7f31decdra68a4368da12ff9e@mail.gmail.com>
+
+Sonata 1.1.1 Released
+
+Just a small bugfix release. Thanks to everyone that has contributed
+patches, bug reports, translations, and suggestions :)
+
+CHANGELOG
+
+   * Add Swedish translation (Daniel Nylander)
+   * Bug: Incorrect artist can sometimes be set for album art/info (vEX)
+   * Bug: Artwork isn't set when there is a single image in the song's dir
+   * Bug: Improve handling under tiling WMs like ion3
+   * Bug: A 2nd instance isn't prevented with dbus/python 2.4 (Sebastian)
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+

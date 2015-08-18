@@ -1,0 +1,84 @@
+From stonecrest at gmail.com  Mon Jul 16 05:03:37 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Sun, 15 Jul 2007 21:03:37 -0600
+Subject: [Sonata-announce] Sonata 1.2 Released
+Message-ID: <35a6f8e30707152003h23733785x37e5ac9f6f7284fb@mail.gmail.com>
+
+Sonata 1.2 Released
+
+Thanks to everyone who has contributed to this release, whether by
+patches, bug reports, translations, or sitting in my lap purring while
+I code. Enjoy :)
+
+CHANGELOG
+
+    *  Audioscrobbler support (requires python 2.5 or python-elementtree) (Owen)
+    * Support for multiple profiles (and, e.g., "sonata --profile=2")
+    * Ability to set search terms for lyrics
+    * Ability to rename playlists (requires mpd >= 0.13)
+    * Prevent continually searching for artwork/lyrics if not found
+the first time
+    * Search for additional artwork filenames
+    * Allows resetting artwork to the default image
+    * 'Save All' button for tag editing window
+    * Display MPD status in systray icon
+    * Prevent GUI blocking when connecting to MPD, where possible
+    * Added Finnish translation (lkka Tuohela)
+    * Bug: Multimedia keys no longer work in Gnome 2.18 (Florian)
+    * Bug: Hide statusbar in collapse mode when showing from systray
+    * Bug: Cover artwork filename doesn't use system's locale charset
+    * Bug: MPD_HOST variable doesn't work when it includes password
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+
+From stonecrest at gmail.com  Tue Jul 17 03:12:00 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Mon, 16 Jul 2007 19:12:00 -0600
+Subject: [Sonata-announce] Sonata 1.2.1 Released
+Message-ID: <35a6f8e30707161812t2cf4b9efp5d760f1248e1abc4@mail.gmail.com>
+
+Sonata 1.2.1 Released
+
+A bugfix release to fix a major regression.
+
+CHANGELOG
+
+ * Bug: Using MPD with a password causes error
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+
+From stonecrest at gmail.com  Mon Jul 23 05:28:51 2007
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Sun, 22 Jul 2007 21:28:51 -0600
+Subject: [Sonata-announce] Sonata 1.2.2 Released
+Message-ID: <35a6f8e30707222028q28a60884r14c4aca6c50c3a51@mail.gmail.com>
+
+Sonata 1.2.2 Released
+
+A second bugfix release. Has a couple important fixes, especially
+regarding artwork fetching.
+
+CHANGELOG
+
+* Bug: Fix artwork fetching (Amazon gzip'ed xml returns garbage)
+* Bug: Prevent connection error if the interface hasn't yet been run
+* Bug: Prevent possibility of deleting image file when choosing local art file
+* Bug: Don't load gnome-settings-daemon if it's not running (kinote)
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+

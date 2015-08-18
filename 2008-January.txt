@@ -1,0 +1,46 @@
+From stonecrest at gmail.com  Wed Jan 16 05:47:25 2008
+From: stonecrest at gmail.com (Scott Horowitz)
+Date: Tue, 15 Jan 2008 21:47:25 -0700
+Subject: [Sonata-announce] Sonata 1.4 Released
+Message-ID: <35a6f8e30801152047o6c155376p3c3bedc83ece9c6c@mail.gmail.com>
+
+Sonata 1.4 Released
+
+This release includes some new features, revamped artwork, a number of
+usability and speed improvements, and some bugfixes. Enjoy.
+
+CHANGELOG
+
+* Integrate info window into main player
+* Update to audioscrobbler protocol 1.2 and scrobbling bug fixes (mveers)
+* Implemented caching of scrobbles across client restarts
+* Vertically center currently playing song
+* Updated artwork (Adrian Chromenko)
+* IPv6 support for the mpd connection (Shane Kerr)
+* Allow screen center for notification popup
+* Preference for saving lyrics to music file's directory (like artwork)
+* Allow hiding and reordering notebook tabs (e.g. playlists, streams, info)
+* Retain library path when re-opening Sonata
+* Remove confusing 'remote only' and 'remote, then local' artwork options
+* Ability to hide progress bar (can create very minimal player)
+* Skip fallback artwork search of just album name if primary searches fail
+* Make system tray icon scalable
+* Shortcuts to search library (ctrl-h), randomize current playlist (alt-r)
+* Use gtk theme's link-color if available (only for gtk 2.12 and above)
+* Bug: Right-click menu can cause accidental actions with some gtk themes
+* Bug: Prevent crash on negative disc/track numbers
+* Bug: Filter + Edit Tags edits a different song than selected
+* Bug: Prevent possible exception regarding cover art on first load
+* Bug: Fix retrieving some non-English lyrics (ecik)
+* Bug: Allow MPD_HOST to override GUI
+* Bug: {} displays in the Current column title
+* Bug: Fix manpage path to be FHS compliant
+* Bug: Ensure that the version of ZSI is compatible with sonata
+
+DOWNLOAD
+
+http://sonata.berlios.de/download.html
+
+Scott
+
+
